@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Press;
+    src: url(PressStart2P-Regular.ttf);
+}
+
+@font-face {
+    font-family: Alfa;
+    src: url(AlfaSlabOne-Regular.ttf);
+}
+
+body {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 700px;
+    height: 350px;
+    font-family: alfa;
+    font-size: 70px;
+       
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: grey;
+    border: black solid 2px;
+    border-radius: 5px;
+    width: 700px;
+    height: 350px;
+    margin: 10px auto;
+    padding: 10px 20px 100px;
+    font-size: 30px;
+    
+}
+
+.name{
+    text-align: center;
+    
+}
+
+#quarter-section {
+    margin-top: 100px;
+    font-size: 20px;
+    text-align: center;
+    display: flex; 
+    flex-direction:column;
+    
+}
+
+
+.quarter {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 80px;
+    width: 80px;
+    background: black;
+    border-radius: 5px;
+}
+
+.quarter-btn-sec {
+    display: flex; 
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+    
+}
+
+
+#quarter-ctn {
+   text-align: center; 
+   padding-top: 20px;
+   color: #ef233c;
+   font-size: 50px;
+}
+
+.total-score {
+    border: solid black 3px;
+    border-radius: 5px;
+    height: 180px;
+    width: 200px;
+    background: black;
+        
+    
+}
+
+.current-scores {
+    font-family: press;
+    font-size: 50px;
+    color: #ef233c;
+    text-align: center;
+    margin-top: 30px;
+     
+    
+}
+
+.current-fouls {
+    font-family: press;
+    font-size: 15px;
+    color: #ef233c;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.total-fouls {
+    font-family: press;
+    font-size: 15px;
+    color: #ef233c;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.points {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px auto; 
+              
+}
+
+.fouls {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin: 15px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 120px;
+   
+    
+}
+
+.btn {
+    border-radius: 10px;
+    
+}
